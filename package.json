@@ -1,0 +1,26 @@
+{
+  "name": "woox",
+  "version": "1.0.0",
+  "description": "Node.js implementation for WOOX's API and Websocket",
+  "main": "",
+  "scripts": {
+    "api_balance": "node ./src/modules/api_calls/getBalance.js",
+    "api_symbols": "node ./src/modules/api_calls/getAvailSymbols.js",
+    "api_system": "node ./src/modules/api_calls/getSystemInfo.js",
+    "api_sendOrder": "node ./src/modules/api_calls/sendOrder.js",
+    "api_sendAlgoOrder": "node ./src/modules/api_calls/sendAlgoOrder.js",
+    "api_updateAccount": "node ./src/modules/api_calls/updateAccountMode.js",
+    "ws_ping": "node ./src/modules/websocket/Ping.js",
+    "ws_sub": "node ./src/modules/websocket/Subscribe.js",
+    "ws_authSub": "node ./src/modules/websocket/AuthAndSubscribe.js"
+  },
+  "keywords": [],
+  "author": "0xLyon",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ws": "^8.17.0"
+  }
+}
