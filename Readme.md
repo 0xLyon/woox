@@ -28,7 +28,7 @@ cd woox
 npm install
 ```
 4. Populate your API_SECRET, API_KEY and APPLICATION_ID in the .env file to be used as environment variables\
-(*Can we found via your WooX account - https://x.woo.org/en/account/sub-account*)
+(*Can be found via your WooX account - https://x.woo.org/en/account/sub-account*)
 ```bash
 vi .env
 ```
